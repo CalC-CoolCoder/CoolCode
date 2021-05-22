@@ -1,2 +1,2 @@
 # CoolCode
-Some really COOL CODE.
+Some really COOL CODE
