@@ -73,7 +73,7 @@ while which in [str(i) for i in range(1,6)]:
             d3a = FND(acos((s2**2 + s1**2 - s3a**2) / (2*s2*s1)))
             m3a = FNM(acos((s2**2 + s1**2 - s3a**2) / (2*s2*s1)))
             area1 = (1/2) * s2 * s3a * sin(radians(d1 + (m1/60)))
-            if s3b >= 0:
+            if s3b > 0:
                 ambiguous = True
                 d2b = FND(acos((s1**2 + s3b**2 - s2**2) / (2*s1*s3b)))
                 m2b = FNM(acos((s1**2 + s3b**2 - s2**2) / (2*s1*s3b)))
